@@ -1,0 +1,9 @@
+# Ignore WordPress configuration files
+wp-config.php
+wp-config-sample.php
+
+# Ignore sensitive files and folders
+wp-content/uploads
+wp-content/upgrade/
+wp-content/uploads
+wp-content/backup-db/
