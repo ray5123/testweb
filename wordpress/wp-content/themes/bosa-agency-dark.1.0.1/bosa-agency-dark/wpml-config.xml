@@ -1,0 +1,19 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_bosa-agency-dark">
+            <key name="featured_pages_section_title" />
+            <key name="featured_pages_section_description" />
+            <key name="feature_posts_two_section_title" />
+            <key name="feature_posts_two_section_description" />
+            <key name="info_one_title" />
+            <key name="info_one_content_one" />
+            <key name="info_one_content_two" />
+            <key name="info_two_title" />
+            <key name="info_two_content_one" />
+            <key name="info_two_content_two" />
+            <key name="info_three_title" />
+            <key name="info_three_content_one" />
+            <key name="info_three_content_two" />
+        </key>
+    </admin-texts>
+</wpml-config>

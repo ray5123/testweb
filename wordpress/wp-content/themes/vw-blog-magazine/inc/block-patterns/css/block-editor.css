@@ -1,0 +1,64 @@
+.cat-img h1, .cat-img p, .main-post h2, .main-post p, .main-about h3, .main-about p,
+.main-post .block-editor-rich-text__editable.wp-block-button__link{
+  font-family: 'Muli', sans-serif;
+}
+/*category css*/
+.cat-img .block-editor-block-list__block,.main-about .block-editor-block-list__block{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important
+} 
+.main-post .block-editor-block-list__block{
+  margin-top: 5px !important;
+  margin-bottom: 0 !important
+} 
+.main-post figure.wp-block-image.block-editor-block-list__block.wp-block.size-large{
+  margin-top: 0 !important;
+}
+.cat-img{
+  position: relative;
+}
+.cat-content {
+  position: absolute !important;
+  top: 50%;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 20px;
+}
+/*second section*/
+.main-post, .main-about {
+  border: solid 1px #ddd;
+  margin-bottom: 30px;
+}
+.main-post p, .main-post h2{
+  margin: 15px 0 10px !important;
+  border-bottom: solid 1px #ddd;
+  padding-bottom: 10px !important;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.main-post h2:after{
+  content: "";
+  width: 50%;
+  height: 4px;
+  background-color: #25c5b7;
+  display: block;
+  top: auto !important;
+  bottom: 0;
+  position: absolute;
+}
+.main-post .block-editor-rich-text__editable.wp-block-button__link{
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 2px !important;
+  padding: 10px !important;
+  background: transparent !important;
+  border: 1px solid #25c5b7 !important;
+  border-radius: 0px;
+}
+.main-post .block-editor-rich-text__editable.wp-block-button__link:hover{
+  background: #25c5b7 !important;
+  color: #fff !important;
+}

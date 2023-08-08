@@ -1,0 +1,151 @@
+/*
+Theme Name: Adventure Tour
+Theme URI: https://www.ovationthemes.com/wordpress/free-adventure-tour-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Adventure Tour is a website template designed especially for travel and tourism businesses. This theme is a great option for travel agencies, tour operators, adventure companies, and other related business planning to create an online presence. Adventure Tour comes with a sleek and modern design and provides all the necessary features to showcase your services, packages, destinations, and other information to potential customers,Adventure Tour comes with all the necessary features to help you create and launch your website. It comes with a user-friendly interface which makes it easy to create and manage your website’s content. It also comes with multiple pre-built pages like the homepage, about us, contact us, and testimonials section. Creating a website with this theme is easy as you can use the drag-and-drop page builder to customize the pages according to your preferences. Furthermore, it includes SEO-friendly codes that are optimized for search engines. These can help you attract more traffic to your website. It is also compatible with the popular plugin WooCommerce, which allows you to sell tour packages and other travel-related products through your website. So, if you want to take your travel agency to the next level, you may want to consider using the Adventure Tour WordPress Theme.
+Version: 1.5
+Requires PHP: 7.2
+Tested up to: 6.2
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: adventure-tour
+Template: adventure-trekking-camp
+Tags: one-column, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, grid-layout, full-width-template, sticky-post, block-styles, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, threaded-comments, wide-blocks, post-formats, food-and-drink, portfolio, e-commerce
+
+Adventure Tour WordPress Theme, Copyright 2023 pewilliams
+Adventure Tour is distributed under the terms of the GNU GPL
+
+Adventure Tour WordPress Theme is child theme of Adventure Trekking Camp WordPress Theme, Copyright 2023 pewilliams
+Adventure Trekking Camp WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+/*service*/
+p.serv-txt {
+    font-size: 15px;
+}
+i.serv-icon {
+    background: #ffa700;
+    color: #ffffff;
+    padding-top: 28px;
+    font-size: 30px;
+    width: 25%;
+    height: 85px;
+    border-radius: 50px;
+    text-align: center;
+}
+img.serv-img {
+    border-radius: 30px;
+}
+.bypostauthor{
+
+  
+}
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+@media screen and (max-width: 375px) and (min-width: 320px){
+ i.serv-icon{
+    width: 30%;
+  }
+}
+@media screen and (max-width: 425px) and (min-width: 320px){
+.slider-button a{
+  display: inline-block;
+}
+ .phone-call p {
+    font-size: 15px;
+}
+.slider-button a {
+    padding: 12px;
+}
+}
+@media screen and (max-width: 768px) and (min-width: 425px){
+  #slider .slick-dots LI {
+    width: 100px;
+    height: 67px;
+  }
+  #slider h1,.phone-call i{
+    font-size: 20px;
+  }
+  #slider h2{
+    font-size: 14px;
+  }
+  .phone-call p {
+    font-size: 15px;
+}
+.slider-button a{
+  display: inline-block;
+}
+#slider .slider-content{
+  top: 25%;
+}
+.search-box {
+    bottom: 35%;
+    right: 25%;
+    left: 25%;
+}
+i.serv-icon{
+    width: 22%;
+  }
+}
+@media screen and (max-width: 999px) and (min-width: 768px){
+   #slider h1{
+    font-size: 45px;
+  }
+  #slider h2{
+    font-size: 22px;
+  }
+  #slider .slider-content {
+    top: 36%;
+  }
+  .search-box {
+    bottom: 30%;
+  }
+  i.serv-icon {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 1000px){
+    i.serv-icon {
+    width: 30%;
+  }
+}

@@ -1,0 +1,152 @@
+/*
+Theme Name: Expert Travel Vlogger
+Theme URI: https://www.seothemesexpert.com/wordpress/free-travel-vlogger-wordpress-theme/
+Author: drakearthur
+Author URI: https://www.seothemesexpert.com/
+Description: Expert Travel Vlogger is a WordPress template designed to create video websites. You can create websites for travel vlogging, food Vlogging, product review sites, vlog makers, technichal vloggers, fashion vloggers or other content creators. This theme has many functionalities like one-column layout, two-columns layout, featured-images,  and right-sidebar, custom-background, custom-colors, custom-header, custom-menu, theme-options, footer-widgets, full-width-template, left-sidebar, threaded-comments etc. This theme has eyecatching header and slider along with a video section to enlist video for leading hotels. The theme has beautiful color combination with option to customize it as per your requirement. 
+Version: 0.3
+Tested up to: 6.1
+Requires PHP: 7.2
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: expert-travel-vlogger
+Template: travel-booking-expert
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, blog, portfolio, photography
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.theme-button,.blog-item::after,.wp-block-calendar table th, .calendar_wrap table th,.pagination .nav-links .page-numbers.current,.sidebar>.widget form button, .footer-area .widget form button,.comment-form input[type='submit'],.upper-header-area,.comment-body::after,.comment-edit-link, .comment-reply-link,#tourist-section .product-box .more-button a, #slider-section .read-btn a{
+    background: #25bdc1;
+}
+.blog-item,.blog-item .blog-content::before,.blog-item .blog-content::after,.sidebar>.widget:not(.widget_text):not(.widget_post):not(.widget_media_image),.comment-form input:not([type='submit']):not([type="checkbox"]):not([type="radio"]), .comment-form textarea,.comment-body,.comment-body .comment-content::after, .comment-body .comment-meta::before{
+	border-color: #25bdc1;
+}
+.blog-item .comment-timing li a i,.widget:not(.widget_social_widget):not(.widget_tag_cloud) li a::after,.sidebar .wp-block-calendar table td a, .sidebar .calendar_wrap table td a,a{
+	color: #25bdc1;
+}
+.sidebar>.widget:not(.widget_text):not(.widget_post):not(.widget_media_image){
+	box-shadow: 3px 5px #25bdc1;
+}
+.sidebar .wp-block-calendar table td#today, .sidebar .calendar_wrap table td#today,.pagination .nav-links a:hover, .pagination .nav-links a:focus,.sidebar>.widget form button:hover, .footer-area .widget form button:hover,.theme-button:hover, .theme-button:focus,.comment-form input[type='submit']:hover, .comment-form input[type='submit']:focus,.comment-edit-link:hover, .comment-edit-link:focus, .comment-reply-link:hover, .comment-reply-link:focus,.main-header .navbar-menubar ul ul,#tourist-section .product-box .more-button a:hover, #slider-section .read-btn a:hover{
+	background: #fa7921;
+}
+.widget_tag_cloud a:hover, .widget_tag_cloud a:focus, .widget_product_tag_cloud .tagcloud a:hover, .widget_product_tag_cloud .tagcloud a:focus,.sidebar .widget:not(.widget_social_widget):not(.widget_tag_cloud):not(.widget_shopping_cart) li a:hover, .sidebar .widget:not(.widget_social_widget):not(.widget_tag_cloud):not(.widget_shopping_cart) li a:focus, .sidebar .widget:not(.widget_social_widget):not(.widget_tag_cloud):not(.widget_shopping_cart) li a:hover:after, .sidebar .widget:not(.widget_social_widget):not(.widget_tag_cloud):not(.widget_shopping_cart) li a:focus:after,.btn-link:hover, .link-primary:focus, .link-primary:hover, .nav-link:focus, .nav-link:hover, a:hover,.second-main-box h3{
+	color: #fa7921;
+}
+.blog-item .blog-content h5.post-title:hover, .blog-item .blog-content h5.post-title a:hover, .blog-item .blog-content .heding:hover{
+	color: #fa7921 !important;
+}
+
+body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus, body button:hover,.inner-box a:focus,.logo a:focus {
+    outline-width: 2px;
+    outline-style: dotted;
+    text-decoration: none;
+    transition: all 300ms linear 0s;
+    outline-color: #000;
+}
+
+
+.lower-header-area {
+    background: rgba(0, 0, 0, 0) linear-gradient(60deg, #fff 35%, #fa7921 8%) repeat scroll 0 0;
+}
+.logo{
+    padding: 0;
+    border-radius: 0;
+    position: static;
+    box-shadow: none;
+    text-align: left;
+    background: transparent;
+}
+.logo a{
+	text-decoration: none;
+}
+.main-header .navbar .navbar-menu ul li a,.main-header .navbar .navbar-menu ul li.current_page_item a{
+	color: #fff;
+    text-decoration: none;
+}
+a.topheader_btn {
+    background: #fff;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.main-header .navbar .navbar-menu ul li.current_page_item a:before{
+	background: #fff !important;
+}
+.navbar-menu {
+    justify-content: flex-end;
+}
+
+#slider-section h2 a {
+    border-left: none;
+    padding-left: 0;
+}
+
+#slider-section .read-btn a{
+	border-radius: 5px;
+}
+
+.second-main-box img {
+    width: 100%;
+}
+
+.inner-box {
+    box-shadow: 0 0 10px 2px #d5d5d5;
+}
+
+.inner-box h4{
+	font-size: 20px;
+}
+
+.inner-box h4 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.inner-box-image {
+    position: relative;
+}
+
+.inner-box-icon {
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.inner-box-icon i {
+    background: #fff;
+    padding: 14px;
+    border-radius: 30px;
+    color: #fa7921;
+}
+
+
+@media screen and (min-width : 320px) and (max-width : 720px) {
+	.lower-header-area {
+	    background: #fa7921;
+	}
+	h4.site-title {
+	    text-align: center;
+	}
+	.slider-area p{
+		display: none;
+	}	
+}
+
+@media screen and (min-width : 721px) and (max-width : 990px) {
+	.navbar-toggler{
+		background: #fa7921 !important;
+	}
+}
+
+@media screen and (min-width : 990px) and (max-width : 1199px) {
+	.lower-header-area {
+    	background: rgba(0, 0, 0, 0) linear-gradient(60deg, #fff 25%, #fa7921 5%) repeat scroll 0 0;
+	}
+}

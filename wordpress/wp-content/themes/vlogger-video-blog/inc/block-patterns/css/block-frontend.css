@@ -1,0 +1,46 @@
+.vlogger-video-blog.playlist-box p, .vlogger-video-blog.playlist-box h3,.vlogger-video-blog.playlist-box .wp-block-button__link {
+	font-family: 'Montserrat', sans-serif;
+}
+.vlogger-video-blog.video-content-box iframe, .vlogger-video-blog.playlist-box iframe{
+	height: 230px !important;
+}
+.vlogger-video-blog.videobox iframe{
+	width: 780px !important;
+	height: 466px !important;
+}
+.vlogger-video-blog.playlist-box h3{
+	font-weight: bold;
+}
+.vlogger-video-blog.playlist-box p {
+    letter-spacing: 0;
+    line-height: 2;
+}
+.vlogger-video-blog.playlist-box .wp-block-button__link {
+    font-size: 12px;
+    border: solid 2px #222222;
+    font-weight: bold;
+    color: #222222 !important;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+.vlogger-video-blog.playlist-box .wp-block-button__link:hover{
+	background: #e62323;
+    border-color: #e62323;
+    color: #fff !important;
+}
+.wp-embed-responsive .wp-embed-aspect-16-9 .wp-block-embed__wrapper:before{
+	padding-top: 45.25% !important;
+}
+/*responsive media*/
+@media screen and ( max-width: 992px ) and ( min-width: 720px ) {
+	.vlogger-video-blog.playlist-box {
+	   flex-wrap: nowrap !important;
+	   margin-top: 10em !important;
+	}
+	.vlogger-video-blog.videobox{
+		flex-basis: 60% !important;
+	}
+	.vlogger-video-blog.video-content-box {
+	flex-basis: 40% !important;
+	}
+}
